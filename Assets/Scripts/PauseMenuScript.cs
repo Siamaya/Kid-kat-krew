@@ -6,6 +6,9 @@ public class PauseMenuScript : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    public TextboxScript textboxui;
+    public GameObject characternameui;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,27 +21,30 @@ public class PauseMenuScript : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GameIsPaused)
+            if(GameIsPaused == true)
             {
                 Resume();
             }
-            else
+            else if(GameIsPaused == false)
             {
                 Pause();
             }
-        }
+        }        
     }
     void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        GameIsPaused = false;       
+        textboxui.enabled = true;
     }
 
     void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true;
+        GameIsPaused = true;        
+        textboxui.enabled=false;      
     }
+
 }
