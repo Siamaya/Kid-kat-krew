@@ -17,18 +17,28 @@ public class ChatLogScript : MonoBehaviour
     public TextMeshProUGUI chatlogtext7;
     public TextMeshProUGUI chatlogtext8;
     public TextMeshProUGUI chatlogtext9;
+    public TextMeshProUGUI chatlogtext10;
+    public TextMeshProUGUI chatlogtext11;
+    public TextMeshProUGUI chatlogtext12;
+    public TextMeshProUGUI chatlogtext13;
+
+    public List<TextMeshProUGUI> chatLogHolder;
 
     // Start is called before the first frame update
     void Start()
     {
         linesclickedrun();
+        //chatLogHolder.Add();
     }
 
     // Update is called once per frame
     void Update()
     {
+        linesclickedrun();
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            
             ChatlogCanvas.SetActive(false);
             menuPanel.SetActive(true);
         }
@@ -66,13 +76,27 @@ public class ChatLogScript : MonoBehaviour
         }
         if (textboxscript.line8Ran == true)
         {
-            chatlogtext8.text = "Ok thats it";
+            chatlogtext8.text = "MOUNTAIN";
         }
         if (textboxscript.line9Ran == true)
         {
-            chatlogtext9.text = "This is the final line of text";
+            chatlogtext9.text = " JAsion durilo";
+        }
+        if (textboxscript.line10Ran == true)
+        {
+            chatlogtext10.text = "Is water wet?";
+        }
+        if (textboxscript.line11Ran == true)
+        {
+            chatlogtext11.text = "How will this affect lebrons legacy?";
+        }
+        if (textboxscript.line11Ran == true)
+        {
+            chatlogtext11.text = "ok im almost done ";
+        }
+        if (textboxscript.line13Ran == true)
+        {
+            chatlogtext13.text = "This is the final line of text";
         }
     }
-
-
 }

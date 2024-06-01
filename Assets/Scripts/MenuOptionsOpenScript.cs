@@ -34,7 +34,7 @@ public class MenuOptionsOpenScript : MonoBehaviour
     {
         menuPanel.SetActive(false);
         chatLogCanvas.SetActive(true);
-        Debug.Log("chat log button clicked");
+        
     }
     public void MainMenuButtonclick()
     {
