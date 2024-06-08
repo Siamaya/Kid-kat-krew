@@ -1271,6 +1271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66f9575a275335345953b79d14529e3d, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1199510720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,10 +1622,21 @@ Canvas:
   m_TargetDisplay: 0
 --- !u!224 &1399040795
 RectTransform:
+=======
+--- !u!1 &1048482396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 66f9575a275335345953b79d14529e3d, type: 3}
+  m_PrefabInstance: {fileID: 1048482395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1048482397
+Animator:
+  serializedVersion: 3
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1399040791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1936,6 +1948,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676141146}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 1048482396}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b93f0889d608c654bba4f0c899245a07, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+>>>>>>> Stashed changes
 --- !u!1001 &2003112353
 PrefabInstance:
   m_ObjectHideFlags: 0
