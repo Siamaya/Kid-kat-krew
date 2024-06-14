@@ -10,7 +10,7 @@ public class BeatController : MonoBehaviour
 
     List<float> whichNote1 = new List<float> { };
     List<float> whichNote = new List<float> {12,1,1,0,1,4,12,1,1,0,4,1,1,10,1,1,2,3,6,7,2,3,1,4,5,4,1,1,2,5,4,7,11,7,7,7,7,7,
-                                            7,7,7,7,7,4,3,4,3,5,4,3,5,7,12,2,1,1,5,6,7,2,4,5,1,0,2,7,7,7,7,7,7,7,7,7,20};
+                                            7,7,7,7,7,4,3,4,3,5,4,3,5,7,12,2,1,1,5,6,7,2,4,5,1,0,2,1,2,5,3,1,3,1,1,1,3,1,3,5,4,3,2,2,2,3,1,4,1,3,1,2,4,5,5,7,7,7,7,7,7,7,7,7,20};
     public int noteMark = 0;
     public Transform noteObj1;
     public Transform noteObj2;

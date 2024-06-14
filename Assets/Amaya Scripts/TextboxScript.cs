@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class TextboxScript : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
@@ -115,9 +117,10 @@ public class TextboxScript : MonoBehaviour
         }
 
         if (linesran >= 1)
-        {           
-            line1Ran = true;
+        {
             Drnamebox();
+            line1Ran = true;
+            
         }
         if (linesran >= 2)
         {
@@ -170,57 +173,68 @@ public class TextboxScript : MonoBehaviour
         }
         if (linesran >= 14)
         {
-            line14Ran = true;
             Paitentnamebox();
+            line14Ran = true;
+            
         }
         if (linesran >= 15)
         {
-            line15Ran = true;
             Drnamebox();
+            line15Ran = true;
+            
         }
         if (linesran >= 16)
         {
-            line16Ran = true;
             Drnamebox();
+            line16Ran = true;
+            
 
         }
         if (linesran >= 17)
         {
-            line17Ran = true;
             Paitentnamebox();
+            line17Ran = true;
+            
 
         }
         if (linesran >= 18)
         {
-            line18Ran = true;
             Drnamebox();
+            line18Ran = true;
+            
 
         }
         if (linesran >= 19)
         {
-            line19Ran = true;
             Paitentnamebox();
+            line19Ran = true;
+            
 
         }
         if (linesran >= 20)
         {
-            line20Ran = true;
             Drnamebox();
+            line20Ran = true;
+          
 
         }
         if (linesran >= 21)
         {
-            line21Ran = true;
             Paitentnamebox();
+            line21Ran = true;
+            
         }
         if (linesran >= 22)
         {
-            line22Ran = true;
             Drnamebox();
+            line22Ran = true;
+           
         }
         if (linesran >= 23)
         {
+            Paitentnamebox();
             line23Ran = true;
+            
         }
         if (linesran >= 24)
         {
@@ -240,15 +254,21 @@ public class TextboxScript : MonoBehaviour
         }
         if (linesran >= 28)
         {
+            Drnamebox();
             line28Ran = true;
+           
         }
         if (linesran >= 29)
         {
+            Paitentnamebox();
             line29Ran = true;
+           
         }
         if (linesran >= 30)
         {
+            Drnamebox();
             line30Ran = true;
+          
         }
         if (linesran >= 31)
         {
@@ -256,15 +276,21 @@ public class TextboxScript : MonoBehaviour
         }
         if (linesran >= 32)
         {
+            Paitentnamebox();
             line32Ran = true;
+         
         }
         if (linesran >= 33)
         {
+            Drnamebox();
             line33Ran = true;
+         
         }
         if (linesran >= 34)
         {
+            Paitentnamebox();
             line34Ran = true;
+         
         }
         if (linesran >= 35)
         {
@@ -272,15 +298,20 @@ public class TextboxScript : MonoBehaviour
         }
         if (linesran >= 36)
         {
+            Drnamebox();
             line36Ran = true;
+        
         }
         if (linesran >= 37)
         {
+
             line37Ran = true;
         }
         if (linesran >= 38)
         {
+            Paitentnamebox();
             line38Ran = true;
+            SceneManager.LoadScene("Taylor test");
         }
 
 

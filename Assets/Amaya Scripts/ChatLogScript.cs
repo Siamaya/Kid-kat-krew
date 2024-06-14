@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
+
 public class ChatLogScript : MonoBehaviour
 {
     public GameObject ChatlogCanvas;
@@ -219,7 +219,7 @@ public class ChatLogScript : MonoBehaviour
         if (textboxscript.line36Ran == true)
         {
             chatlogtext36.text = "To the game!";
-            SceneManager.LoadScene("Taylor test");
+
         }
         if (textboxscript.line37Ran == true)
         {

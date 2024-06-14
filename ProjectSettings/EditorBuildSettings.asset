@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start Screen!.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Textbox stuff 1.unity
+    guid: 6e273986cc5fe0a4bb35f6d698c62b7c
+  - enabled: 1
+    path: Assets/Scenes/Taylor test.unity
+    guid: 5db543d2e52c0924f863d9d6d5c26d57
   m_configObjects: {}
